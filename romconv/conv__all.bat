@@ -1,63 +1,66 @@
 @echo off
+setlocal
+pushd "%~dp0"
+if errorlevel 1 exit /b 1
 echo --------- Convert all ---------
 
-call conv_z80.bat
+cmd /d /c call "%~dp0conv_z80.bat"
 
 
 
 
 
 
-call conv_1942.bat
-call conv_alibaba.bat
-call conv_amidar.bat
-call conv_anteater.bat
-call conv_bagman.bat
-call conv_bnj.bat
-call conv_bombjack.bat
-call conv_btime.bat
-call conv_circusc.bat
-call conv_crush.bat
-call conv_digdug.bat
-call conv_dkong.bat
-call conv_dkong3.bat
-call conv_dkongjr.bat
-call conv_eyes.bat
-call conv_fantasy.bat
-call conv_frogger.bat
-call conv_galaga.bat
-call conv_galaxian.bat
-call conv_gaplus.bat
-call conv_gyruss.bat
-call conv_invaders.bat
-call conv_kangaroo.bat
-call conv_ladybug.bat
-call conv_lizwiz.bat
-call conv_mappy.bat
-call conv_mooncresta.bat
-call conv_mrdo.bat
-call conv_mrtnt.bat
-call conv_mspacman.bat
-call conv_nibbler.bat
-call conv_pacman.bat
-call conv_pbaction.bat
-call conv_pengo.bat
-call conv_phoenix.bat
-call conv_pooyan.bat
-call conv_qix.bat
-call conv_rocnrope.bat
-call conv_scramble.bat
-call conv_scregg.bat
-call conv_starforce.bat
-call conv_supercobra.bat
-call conv_theglob.bat
-call conv_timeplt.bat
-call conv_todruaga.bat
-call conv_turtles.bat
-call conv_tutankhm.bat
-call conv_vanvan.bat
-call conv_vanguard.bat
-call conv_xevious.bat
+cmd /d /c call "%~dp0conv_1942.bat"
+cmd /d /c call "%~dp0conv_alibaba.bat"
+cmd /d /c call "%~dp0conv_amidar.bat"
+cmd /d /c call "%~dp0conv_anteater.bat"
+cmd /d /c call "%~dp0conv_bagman.bat"
+cmd /d /c call "%~dp0conv_bnj.bat"
+cmd /d /c call "%~dp0conv_bombjack.bat"
+cmd /d /c call "%~dp0conv_btime.bat"
+cmd /d /c call "%~dp0conv_circusc.bat"
+cmd /d /c call "%~dp0conv_crush.bat"
+cmd /d /c call "%~dp0conv_digdug.bat"
+cmd /d /c call "%~dp0conv_dkong.bat"
+cmd /d /c call "%~dp0conv_dkong3.bat"
+cmd /d /c call "%~dp0conv_dkongjr.bat"
+cmd /d /c call "%~dp0conv_eyes.bat"
+cmd /d /c call "%~dp0conv_fantasy.bat"
+cmd /d /c call "%~dp0conv_frogger.bat"
+cmd /d /c call "%~dp0conv_galaga.bat"
+cmd /d /c call "%~dp0conv_galaxian.bat"
+cmd /d /c call "%~dp0conv_gaplus.bat"
+cmd /d /c call "%~dp0conv_gyruss.bat"
+cmd /d /c call "%~dp0conv_invaders.bat"
+cmd /d /c call "%~dp0conv_kangaroo.bat"
+cmd /d /c call "%~dp0conv_ladybug.bat"
+cmd /d /c call "%~dp0conv_lizwiz.bat"
+cmd /d /c call "%~dp0conv_mappy.bat"
+cmd /d /c call "%~dp0conv_mooncresta.bat"
+cmd /d /c call "%~dp0conv_mrdo.bat"
+cmd /d /c call "%~dp0conv_mrtnt.bat"
+cmd /d /c call "%~dp0conv_mspacman.bat"
+cmd /d /c call "%~dp0conv_nibbler.bat"
+cmd /d /c call "%~dp0conv_pacman.bat"
+cmd /d /c call "%~dp0conv_pbaction.bat"
+cmd /d /c call "%~dp0conv_pengo.bat"
+cmd /d /c call "%~dp0conv_phoenix.bat"
+cmd /d /c call "%~dp0conv_pooyan.bat"
+cmd /d /c call "%~dp0conv_qix.bat"
+cmd /d /c call "%~dp0conv_rocnrope.bat"
+cmd /d /c call "%~dp0conv_scramble.bat"
+cmd /d /c call "%~dp0conv_scregg.bat"
+cmd /d /c call "%~dp0conv_starforce.bat"
+cmd /d /c call "%~dp0conv_supercobra.bat"
+cmd /d /c call "%~dp0conv_theglob.bat"
+cmd /d /c call "%~dp0conv_timeplt.bat"
+cmd /d /c call "%~dp0conv_todruaga.bat"
+cmd /d /c call "%~dp0conv_turtles.bat"
+cmd /d /c call "%~dp0conv_tutankhm.bat"
+cmd /d /c call "%~dp0conv_vanvan.bat"
+cmd /d /c call "%~dp0conv_vanguard.bat"
+cmd /d /c call "%~dp0conv_xevious.bat"
 
 
 
@@ -67,3 +70,5 @@ echo ---- Important
 echo ---- Please check if any errors occured!
 echo ---- Important
 Pause
+popd
+endlocal

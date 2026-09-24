@@ -85,7 +85,7 @@ def parse_logo(inname, outname):
 
     print("Encoded from", 2*len(rgb565), "to", 2*len(enc16))
 
-    c_name = outname.split("/")[-1].split(".")[0]
+    c_name = os.path.splitext(os.path.basename(outname))[0]
     if c_name[0].isnumeric(): c_name = "_" + c_name
     
     f = open(outname, "w")
