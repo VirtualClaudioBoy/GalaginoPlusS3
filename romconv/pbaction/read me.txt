@@ -1,0 +1,2 @@
+pbaction set 1
+Run file /romconv/conv_pbaction-all.py to generate all the headers files
