@@ -1,4 +1,4 @@
-![Galagino Plus screenshot](images/galaginoplus.png)
+![Galagino Plus S3 screenshot](images/GalaginoPlusS3.png)
 
 # A new Galagino with 50 games, the ability to save the highest scores of each game and a marquee in full color !
 
