@@ -1,6 +1,6 @@
 ![Galagino Plus screenshot](images/galaginoplus.png)
 
-# A new Galagino with 50 games, the ability to save the highest scores of each game and the original marquee in full color !
+# A new Galagino with 50 games, the ability to save the highest scores of each game and a marquee in full color !
 
 The main new feature of this version, besides the new games added, is the permanent saving of high scores and player names. You can also configure auto-fire and audio mute in attract mode in config.h.
 
